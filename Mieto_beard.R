@@ -55,8 +55,8 @@ P_drag_beard <- P_drag_body *
 # Delta time
 delta_time <- T_total * (P_drag_beard / P_total)
 
-# Todennäköisyys, että parran vaikutus realisoituu
-p_active <- runif(N, 0.05, 0.2)  # esim. 5–20 % ajasta
+# Probability of activation of effect of beard
+p_active <- runif(N, 0.05, 0.2)  # ex. 5–20 % of time
 
 delta_time_real <- delta_time * p_active
 
