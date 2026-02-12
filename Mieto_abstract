@@ -1,0 +1,14 @@
+**Title**
+**Small Margins as Distributions: A Bayesian Counterfactual Analysis of Aerodynamic Drag in Elite Winter Sport**
+
+**Abstract (≤250 words)**
+Elite winter sport is frequently decided by margins so small that causal explanations become speculative. At the 1980 Winter Olympics, the men’s 15 km cross-country skiing race was decided by one hundredth of a second. Rather than asking what caused that outcome, we ask a narrower and more statistical question: could a plausible physical effect—specifically aerodynamic drag—have been large enough to matter?
+
+Using publicly available split times and a realistic proxy for course profile, we construct a Bayesian forward simulation model of aerodynamic drag in cross-country skiing. Uncertain quantities, including frontal area, drag coefficient and athlete power output, are represented as prior distributions. Propagating these through a physics-based model yields a posterior distribution for the time loss attributable to drag. The probability that drag alone could account for the observed margin corresponds to the posterior mass exceeding 0.01 seconds under a strict ceteris paribus assumption.
+
+To demonstrate generality, we apply the same framework to elite 500 m speed skating, where aerodynamics dominate performance under controlled indoor conditions and medal margins are likewise measured in hundredths of a second. In both cases, differences often dismissed as negligible fall well within the range of physically plausible outcomes.
+
+These examples illustrate how Bayesian thinking provides a principled language for reasoning about counterfactuals, uncertainty propagation and decision-making in settings where precision is extreme but explanations are inherently probabilistic.
+
+**Keywords**
+Bayesian modelling; counterfactual analysis; uncertainty propagation; sports analytics; aerodynamics
