@@ -1,14 +1,17 @@
-**Title**
-**Small Margins as Distributions: A Bayesian Counterfactual Analysis of Aerodynamic Drag in Elite Winter Sport**
+Title
 
-**Abstract (≤250 words)**
-Elite winter sport is frequently decided by margins so small that causal explanations become speculative. At the 1980 Winter Olympics, the men’s 15 km cross-country skiing race was decided by one hundredth of a second. Rather than asking what caused that outcome, we ask a narrower and more statistical question: could a plausible physical effect—specifically aerodynamic drag—have been large enough to matter?
+When One Hundredth of a Second Matters: Bayesian Counterfactual Modeling in R
 
-Using publicly available split times and a realistic proxy for course profile, we construct a Bayesian forward simulation model of aerodynamic drag in cross-country skiing. Uncertain quantities, including frontal area, drag coefficient and athlete power output, are represented as prior distributions. Propagating these through a physics-based model yields a posterior distribution for the time loss attributable to drag. The probability that drag alone could account for the observed margin corresponds to the posterior mass exceeding 0.01 seconds under a strict ceteris paribus assumption.
+Abstract (useR-tyylinen, ~200–220 sanaa)
 
-To demonstrate generality, we apply the same framework to elite 500 m speed skating, where aerodynamics dominate performance under controlled indoor conditions and medal margins are likewise measured in hundredths of a second. In both cases, differences often dismissed as negligible fall well within the range of physically plausible outcomes.
+At the 1980 Winter Olympics, the men’s 15 km cross-country skiing race was decided by one hundredth of a second. Rather than debating historical causes, we treat this as a modeling problem: could a physically plausible effect—such as a small change in aerodynamic drag—have been large enough to matter?
 
-These examples illustrate how Bayesian thinking provides a principled language for reasoning about counterfactuals, uncertainty propagation and decision-making in settings where precision is extreme but explanations are inherently probabilistic.
+In this talk, we demonstrate how Bayesian forward simulation in R can be used to reason about extreme performance margins under limited data. Using publicly available split times and a realistic proxy for course profile, we construct a physics-informed probabilistic model of aerodynamic drag. Key uncertain quantities—frontal area, drag coefficient, and power output—are represented as prior distributions. We then propagate uncertainty through the model to obtain a posterior distribution for time loss attributable to drag.
 
-**Keywords**
-Bayesian modelling; counterfactual analysis; uncertainty propagation; sports analytics; aerodynamics
+The resulting visualization makes a subtle point clear: margins commonly described as “negligible” may lie well within the distribution of physically plausible outcomes. The emphasis is not on rewriting history, but on illustrating how R can be used to formalize counterfactual reasoning, propagate uncertainty, and communicate probabilistic thinking in an intuitive way.
+
+The talk focuses on reproducible simulation, transparent assumptions, and effective visualization strategies for Bayesian reasoning in applied contexts.
+
+Keywords
+
+Bayesian modeling; simulation; uncertainty propagation; reproducible research; sports analytics
